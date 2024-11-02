@@ -1,6 +1,11 @@
 TIME=/usr/bin/time
 TIME_FORMAT="%Es\telapsed\n%Us\tuser\n%Ss\tsystem\n%MkB\n"
 
+CC = gcc
+CFLAGS = -std=gnu89 -O4
+export CC
+export CFLAGS
+
 ADPCM_INPUT=300000000
 BASICMATH_RUNS=20
 BITCOUNT_INPUT=140000000
