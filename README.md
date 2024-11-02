@@ -1,6 +1,11 @@
 # MiBench
 Source Code from: [http://vhosts.eecs.umich.edu/mibench/source.html](http://vhosts.eecs.umich.edu/mibench/source.html)
 
+## Jotham
+
+Install python3 requirements with `pip3 install -r requirements.txt`
+Run `bash get_workload_profiles.sh`
+
 ## Not Ported
  * `consumer/tiff*` Needs system wide installation
  * `office/ghostscript` Not compatible with `stdlib.h`
