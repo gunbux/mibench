@@ -1,3 +1,4 @@
+.direnv
 .*.swp
 
 results/.~lock.user_vs_system_time.xlsx#
